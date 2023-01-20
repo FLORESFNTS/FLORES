@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TqlSaldoCentro</string>
+    <string name="descripcion_app">Consulta el saldo disponible de tu monedero electronico tanque lleno al momento, además podras ubicar las estaciones cercanas de servicio</string>
+    <string name="invitacion_politica">Consulta la Pólitica y aviso de privacidad en:</string>
+    <string name="link_politica">https://clientescentro.tanquelleno.com/Mapa/Politica_privacidad</string>
+    <string name="title_activity_dash_board_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="completa_tarjeta">Completa tu numero de Tarjeta</string>
+    <string name="leyenda_saldo">El saldo de la tarjeta esta sujeto al monto general de la cuenta</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="txt_sintarjetas">Parece que no tienes tarjetas agregadas , comienza por aqui!</string>
+    <string name="local_acces">Acceso a la ubicación en segundo plano</string>
+    <string name="warning_local">Tql saldo recolecta información de tu ubicación para activar el rastreo de estaciones cercanas de servicio, incluso cuando la aplicación está cerrada o no está en uso.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

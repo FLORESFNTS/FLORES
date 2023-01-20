@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dialogos.NuevaTarjetaDialogFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/etxtidentificador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorLink="@color/colorAccent"
+            android:textCursorDrawable="@color/colorAccent"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etxtregion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:inputType="number"
+            android:text="99999"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorLink="@color/colorAccent"
+            android:textCursorDrawable="@color/colorAccent"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="@+id/etxtidentificador"
+            app:layout_constraintStart_toEndOf="@+id/etxtidentificador"
+            app:layout_constraintTop_toTopOf="@+id/etxtidentificador"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/etxtnuclientefrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:inputType="number"
+            android:maxEms="4"
+            android:maxLength="5"
+            android:minEms="3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorLink="@color/colorAccent"
+            android:textCursorDrawable="@color/colorAccent"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="@+id/etxtregion"
+            app:layout_constraintStart_toEndOf="@+id/etxtregion"
+            app:layout_constraintTop_toTopOf="@+id/etxtregion"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/etxtnutarjetafrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:inputType="number"
+            android:maxEms="4"
+            android:maxLength="5"
+            android:minEms="3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorLink="@color/colorAccent"
+            android:textCursorDrawable="@color/colorAccent"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="@+id/etxtnuclientefrag"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/etxtnuclientefrag"
+            app:layout_constraintTop_toTopOf="@+id/etxtnuclientefrag"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <EditText
+        android:id="@+id/txtnametarjetafrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:maxLength="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre de tarjeta"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnNewCardCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:text="Cancelar"
+
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/btnNewCardSave"
+        app:layout_constraintTop_toBottomOf="@+id/txtnametarjetafrag" />
+
+    <Button
+        android:id="@+id/btnNewCardSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Guardar"
+        android:textAllCaps="false"
+        android:theme="@style/Button.green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnNewCardCancel" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

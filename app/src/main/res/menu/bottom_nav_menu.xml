@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_saldo"
+        android:icon="@drawable/ic_card1"
+        android:title="Saldo" />
+
+    <item
+        android:id="@+id/navigation_consumos"
+        android:icon="@drawable/ic_consumos_recientes"
+        android:title="Consumos" />
+
+    <item
+        android:id="@+id/navigation_mapa"
+        android:icon="@drawable/ic_location_estaciones"
+        android:title="Estaciones" />
+
+</menu>
